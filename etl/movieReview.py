@@ -14,7 +14,6 @@ for movie_id in range(550, 556):
     response_list.append(r.json())
 
 print(response_list)
-
 print("#######################Converting result to DataFrame ###################################")
 df = pd.DataFrame.from_dict(response_list)
 print(df.to_string())
