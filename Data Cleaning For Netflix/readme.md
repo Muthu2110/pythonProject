@@ -12,3 +12,8 @@ Instead of trying to make any changes in the powerBI query, tried to explore mor
 When we searched for "Argentina" we found we had 35 Contents. But with this improvement we found that originally 65 contents were released in Argentina.
 
 This is what we have as part of the second Iteration we did on this cleaning. This could further be improved. 
+
+Files attached: 
+1. netflix_titles.csv : Raw data from Kaggle
+2. netflix_titles_cleaned.csv: Cleaned data using our script
+3. CountryToShowidMapper.csv: Mapper to solve the country issue discussed above
