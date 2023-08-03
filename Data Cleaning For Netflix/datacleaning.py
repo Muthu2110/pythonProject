@@ -21,10 +21,10 @@ print(cdf)
 print("######")
 print("########")
 
-listOfCountries = cdf.values.tolist
+listOfCountries = cdf.values.tolist  # converting new cdf(dataframe) to a list
 
-resultDictionary = []
-uniqueCountryList = set()
+resultDictionary = [] #created a empty list
+uniqueCountryList = set() # set() has no duplicates
 print(cdf.values.tolist())
 print("######")
 studentsDict = dict(cdf.values.tolist())
